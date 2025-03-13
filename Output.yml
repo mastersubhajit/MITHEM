@@ -1,0 +1,89 @@
+MITHEM_Evaluation:
+  Datasets:
+    - Name: MIMIC-III
+      Samples: 58976
+      Labels: 1473
+      Avg_Labels_Per_Sample: 5.2
+      Imbalance_Ratio: 0.043
+      Expected_Output:
+        Label_Matrix_Size: "58976 x 1473"
+        LIR: 0.043
+        Classifier_Performance:
+          SVM:
+            Accuracy: 55.3%
+            Macro_F1_Score: 0.43
+          DecisionTree:
+            Accuracy: 50.1%
+            Macro_F1_Score: 0.38
+          RandomForest:
+            Accuracy: 62.7%
+            Macro_F1_Score: 0.49
+          Meta-Classifier:
+            Accuracy: 75.9%
+            Macro_F1_Score: 0.56
+
+    - Name: BioASQ
+      Samples: 12700
+      Labels: 2347
+      Avg_Labels_Per_Sample: 3.8
+      Imbalance_Ratio: 0.062
+      Expected_Output:
+        Label_Matrix_Size: "12700 x 2347"
+        LIR: 0.062
+        Classifier_Performance:
+          SVM:
+            Accuracy: 58.1%
+            Macro_F1_Score: 0.45
+          DecisionTree:
+            Accuracy: 54.6%
+            Macro_F1_Score: 0.41
+          RandomForest:
+            Accuracy: 65.2%
+            Macro_F1_Score: 0.51
+          Meta-Classifier:
+            Accuracy: 74.8%
+            Macro_F1_Score: 0.58
+
+    - Name: PubMed_RCT
+      Samples: 10000
+      Labels: 20
+      Avg_Labels_Per_Sample: 1.6
+      Imbalance_Ratio: 0.157
+      Expected_Output:
+        Label_Matrix_Size: "10000 x 20"
+        LIR: 0.157
+        Classifier_Performance:
+          SVM:
+            Accuracy: 78.3%
+            Macro_F1_Score: 0.61
+          DecisionTree:
+            Accuracy: 73.5%
+            Macro_F1_Score: 0.56
+          RandomForest:
+            Accuracy: 81.7%
+            Macro_F1_Score: 0.64
+          Meta-Classifier:
+            Accuracy: 86.2%
+            Macro_F1_Score: 0.70
+
+    - Name: Medline
+      Samples: 15384
+      Labels: 512
+      Avg_Labels_Per_Sample: 4.5
+      Imbalance_Ratio: 0.091
+      Expected_Output:
+        Label_Matrix_Size: "15384 x 512"
+        LIR: 0.091
+        Classifier_Performance:
+          SVM:
+            Accuracy: 60.4%
+            Macro_F1_Score: 0.48
+          DecisionTree:
+            Accuracy: 55.9%
+            Macro_F1_Score: 0.44
+          RandomForest:
+            Accuracy: 67.1%
+            Macro_F1_Score: 0.53
+          Meta-Classifier:
+            Accuracy: 76.3%
+            Macro_F1_Score: 0.60
