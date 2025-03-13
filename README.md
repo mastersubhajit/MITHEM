@@ -22,7 +22,6 @@ For copyright reasons, the MIMIC-III, BioASQ, PubMed RCT, and Medline datasets a
 ### However, this repository includes:
 - ✅ Preprocessed outputs and evaluation results in .yaml format
 - ✅ Code to train models on any biomedical dataset
-- ✅ Synthetic sample data for testing
 
 ### How to Access Biomedical Datasets?
 - MIMIC-III: Request access from PhysioNet
