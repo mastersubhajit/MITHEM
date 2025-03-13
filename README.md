@@ -24,7 +24,7 @@ However, this repository includes:
 ✅ Code to train models on any biomedical dataset
 ✅ Synthetic sample data for testing
 
-How to Access Biomedical Datasets?
+### How to Access Biomedical Datasets?
 MIMIC-III: Request access from PhysioNet
 BioASQ: Download from BioASQ Challenge
 PubMed RCT: Available at PubMed RCT dataset
