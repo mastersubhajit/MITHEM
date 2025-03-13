@@ -19,10 +19,10 @@ cd MITHEM-Biomedical-Classification
 ## Dataset Information & Copyright Notice
 For copyright reasons, the MIMIC-III, BioASQ, PubMed RCT, and Medline datasets are NOT included in this repository. These datasets contain sensitive biomedical data and require special access permissions.
 
-However, this repository includes:
-✅ Preprocessed outputs and evaluation results in .yaml format
-✅ Code to train models on any biomedical dataset
-✅ Synthetic sample data for testing
+### However, this repository includes:
+### ✅ Preprocessed outputs and evaluation results in .yaml format
+### ✅ Code to train models on any biomedical dataset
+### ✅ Synthetic sample data for testing
 
 ### How to Access Biomedical Datasets?
 MIMIC-III: Request access from PhysioNet
