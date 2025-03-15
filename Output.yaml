@@ -1,0 +1,88 @@
+biomedical_datasets:
+  - dataset: MIMIC-III
+    algorithms:
+      MITHEM: 92.23%
+      BR: 87.05%
+      CC: 85.30%
+      BP-MLL: 81.05%
+      MLCCE: 84.18%
+      SVM: 88.10%
+      DT: 79.08%
+      RF: 90.49%
+
+  - dataset: BioASQ Task B
+    algorithms:
+      MITHEM: 97.42%
+      BR: 72.68%
+      CC: 81.50%
+      BP-MLL: 77.86%
+      MLCCE: 53.20%
+      SVM: 84.04%
+      DT: 77.11%
+      RF: 68.25%
+
+  - dataset: PubMed RCT
+    algorithms:
+      MITHEM: 92.34%
+      BR: 50.30%
+      CC: 88.12%
+      BP-MLL: 85.04%
+      MLCCE: 87.48%
+      SVM: 91.07%
+      DT: 83.22%
+      RF: 92.49%
+
+  - dataset: Medline
+    algorithms:
+      MITHEM: 88.05%
+      BR: 76.20%
+      CC: 83.55%
+      BP-MLL: 79.48%
+      MLCCE: 30.30%
+      SVM: 86.69%
+      DT: 82.41%
+      RF: 88.24%
+
+  - dataset: Clinical Trials
+    algorithms:
+      MITHEM: 99.04%
+      BR: 98.37%
+      CC: 96.42%
+      BP-MLL: 83.15%
+      MLCCE: 85.38%
+      SVM: 99.10%
+      DT: 81.08%
+      RF: 95.09%
+
+  - dataset: OHSUMED
+    algorithms:
+      MITHEM: 99.15%
+      BR: 86.50%
+      CC: 94.50%
+      BP-MLL: 90.00%
+      MLCCE: 83.24%
+      SVM: 87.30%
+      DT: 79.52%
+      RF: 99.34%
+
+  - dataset: PMC-Patients
+    algorithms:
+      MITHEM: 91.05%
+      BR: 89.42%
+      CC: 87.80%
+      BP-MLL: 84.80%
+      MLCCE: 88.51%
+      SVM: 90.49%
+      DT: 83.22%
+      RF: 92.16%
+
+  - dataset: CORD-19
+    algorithms:
+      MITHEM: 89.55%
+      BR: 87.84%
+      CC: 85.92%
+      BP-MLL: 82.88%
+      MLCCE: 86.87%
+      SVM: 88.20%
+      DT: 80.79%
+      RF: 80.69%
