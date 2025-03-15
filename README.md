@@ -1,6 +1,6 @@
 # MITHEM
 
-A Python implementation of **MITHEM (Multi-Label Imbalanced Text Handling with Ensemble Models)** for **biomedical text classification**. This project applies **TF-IDF, SMOTE-based rebalancing, and ensemble learning** to handle multi-label imbalanced datasets like **MIMIC-III, BioASQ, PubMed RCT, and Medline**.  
+A Python implementation of **MITHEM (Multi-label Imbalance-aware Text Classification using Hybrid Ensemble Model)** for **biomedical text classification**. This project applies **TF-IDF, SMOTE-based rebalancing, and ensemble learning** to handle multi-label imbalanced datasets like **MIMIC-III, BioASQ, PubMed RCT, and Medline**. **In this Repo the code is not in it's entirety** due to the sensitive nature of the work & publication of the academic paper in due. The authors of the work decided to make MITHEM source code partially available to public.
 
 ## 🚀 Key Features
 - **Multi-label classification** for biomedical text datasets  
